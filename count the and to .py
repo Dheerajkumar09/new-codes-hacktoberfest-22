@@ -8,4 +8,4 @@ def counter():
     print("to is present",count_to,"times")
     print("the is present",count_the,"times")
     f.close()
-    
+    counter()
