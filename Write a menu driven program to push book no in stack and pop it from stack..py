@@ -3,7 +3,7 @@ ch='Y'
 while(ch=='Y' or ch=='y'):
     print("Enter 1 : Push")
     print("Enter 2 : Pop")
-    opt=int(input('enter ur choice:'))
+    opt=int(input('enter ur choice: '))
     if opt==1:
         d=int(input("enter book no : "))
         stk.append(d)
@@ -15,4 +15,4 @@ while(ch=='Y' or ch=='y'):
             print ("Deleted element:", p)
     else:
         print('invalid choice')
-ch=(input('want to continue?'))
+ch=(input('Do you want to continue?'))
