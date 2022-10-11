@@ -5,5 +5,3 @@ def string_reverse(str1):
         rstr1 += str1[ index - 1 ]
         index = index - 1
     return rstr1
-str1=input("Enter String:")
-print(string_reverse(str1))
