@@ -1,7 +1,5 @@
 import mysql.connector
-mydb=mysql.connector.connect(host="localhost",
-     user="root",passwd="mandvi",database="school"
-     ,auth_plugin='mysql_native_password')
+mydb=mysql.connector.connect(your login credentials)
 print(mydb)
 mycursor=mydb.cursor()
 no=(input("Enter no to be searched : "))
