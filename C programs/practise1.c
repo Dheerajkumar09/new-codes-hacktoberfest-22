@@ -7,8 +7,4 @@ void myFunc1(){
     printf("%c", c1);
     return;   
 }
-int main(){
-    myFunc1();
-    myFunc1();
-    return 0;
-}
+==your code==
