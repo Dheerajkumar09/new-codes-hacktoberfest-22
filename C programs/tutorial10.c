@@ -19,7 +19,7 @@ int main()
   }
   else
   {
-    printf("Sorry You don't won anithing");
+    printf("Sorry You don't won anything");
   }
   
 }
