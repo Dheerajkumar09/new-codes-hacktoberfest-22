@@ -2,7 +2,7 @@
 int Search(int arr[15],int n){
     int i;
     for(i=0;i<15;i++)
-    {
+    n
         if(arr[i]==n){
             return i;
         }
